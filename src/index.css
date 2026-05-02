@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-display: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans;
+  }
+}
+
+@layer components {
+  .sleek-card {
+    @apply bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm;
+  }
+
+  .sleek-header-label {
+    @apply block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1;
+  }
+
+  .sleek-input {
+    @apply w-full px-4 py-2 bg-white border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all;
+  }
+
+  .sleek-table-header {
+    @apply bg-slate-50 border-b border-slate-200 text-xs font-bold text-slate-500 uppercase tracking-wider h-10 px-6;
+  }
+
+  .sleek-btn-primary {
+    @apply px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-500 transition-colors shadow-sm;
+  }
+
+  .status-badge {
+    @apply px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-tight;
+  }
+}
+

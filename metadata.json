@@ -1,0 +1,6 @@
+{
+  "name": "Industrial Failure Analytics",
+  "description": "A comprehensive database of 1000 failure analysis reports for engine components, featuring search, filtering, and detailed technical specs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
