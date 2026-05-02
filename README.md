@@ -1,4 +1,4 @@
-#This project is a web-based platform developed during my internship at Ashok Leyland, aimed at simplifying how failure analysis data of automobile components is stored, accessed, and analyzed.
+This project is a web-based platform developed during my internship at Ashok Leyland, aimed at simplifying how failure analysis data of automobile components is stored, accessed, and analyzed.
 In many industrial settings, failure reports are scattered across PDF documents, making it difficult to retrieve or compare information efficiently. To address this, I built a system that allows users to upload and manage over 10 years of historical failure analysis data, along with any new incoming reports.
 The platform extracts and organizes key information from PDFs, such as:
 Component/part details
