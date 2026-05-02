@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/c4f9bf3a-39bc-41a6-83db-d751a7338fe5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+#This project is a web-based platform developed during my internship at Ashok Leyland, aimed at simplifying how failure analysis data of automobile components is stored, accessed, and analyzed.
+In many industrial settings, failure reports are scattered across PDF documents, making it difficult to retrieve or compare information efficiently. To address this, I built a system that allows users to upload and manage over 10 years of historical failure analysis data, along with any new incoming reports.
+The platform extracts and organizes key information from PDFs, such as:
+Component/part details
+Manufacturer and customer information
+Material composition
+Hardness values and case depth
+Heat treatment processes
+Final failure analysis conclusions
+Users can easily search for specific parts and instantly access all related reports. The system also supports comparison between different failure reports, enabling better insights into recurring issues, material performance, and process variations.
+Overall, this project focuses on turning unstructured PDF data into a structured, searchable, and decision-friendly system—helping engineers save time and make more informed decisions.
